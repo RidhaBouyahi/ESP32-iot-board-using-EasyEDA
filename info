@@ -1,0 +1,318 @@
+{
+  "uuid": "117bee50c5666bbc29d6bc0352319b2b",
+  "path": "Offline/esp32 module",
+  "name": "esp32 module",
+  "content": "",
+  "created_at": "2020-07-05 20:37:32",
+  "updated_at": "2020-07-12 12:47:07",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ed598f4bf860e30872bfd8ee235bfb7b",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "588dac9f81df8f83843513972963b454": 1,
+        "55792152921e4dd39bca0a771a78f25e": 1,
+        "f3fe56761e5d4bb49b034efdb56ea9e7": 1,
+        "ca94110f4544769d36adda4b0515e409": 2,
+        "212e4e7ac253e44d17caceb02663d93c": 2,
+        "b585d92194385de14506b560a4a27e20": 1,
+        "ba76f2a61ad251f7260544b43a3e71f4": 1,
+        "f80e29816fd30bb295222fb4f47bcc25": 3,
+        "953a0347c42cb45cf299aeedf12398c9": 6,
+        "8322b07449fd4cbaaaee680bad06d53a": 3,
+        "0e7de0705db79c49f7005d174cdac6cc": 5,
+        "e5c520d9ba8f8f1ff1854effb6ee96b9": 5,
+        "5a9ec2085ad6436d86701332d4451b76": 2,
+        "a23db381e69b411a90ba315dced457c9": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "19-213/Y2C-CQ2R2L/3T(CY)",
+          5,
+          "LED0603-R-RD",
+          "LED1,LED2,LED3,LED-RX,LED-TX",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "EVERLIGHT",
+            "BOM_Manufacturer Part": "19-213/Y2C-CQ2R2L/3T(CY)",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C72038",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "0e7de0705db79c49f7005d174cdac6cc"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x15",
+          2,
+          "HDR-F-2.54_1X15",
+          "H1,H2",
+          {
+            "BOM_Supplier Part": "C124408",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "bce4bcfcccfb42a296f7a392ab0b7199",
+            "uuid": "5a9ec2085ad6436d86701332d4451b76"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "CAP-SMD_L3.2-W1.6-R-RD",
+          "C1,C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TAJA106K016RNJ",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C7171",
+            "puuid": "61ca4390f2284e11848b2ab1e8ce9766",
+            "uuid": "212e4e7ac253e44d17caceb02663d93c"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C6186",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ],
+        [
+          "470",
+          6,
+          "R0402",
+          "R2,R3,R6,R7,R9,R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF4700TCE",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C25117",
+            "puuid": "cea456c24ca24165b176bcf9114a7b29",
+            "uuid": "953a0347c42cb45cf299aeedf12398c9"
+          }
+        ],
+        [
+          "5.1",
+          3,
+          "R2512",
+          "R4,R5,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C73113",
+            "BOM_Manufacturer": "Uniroyal Elec",
+            "BOM_Manufacturer Part": "25121WF510KT4E",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "904b05bf744941788ee266e1db69f507",
+            "uuid": "8322b07449fd4cbaaaee680bad06d53a"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-3.5*7.5*7.2",
+          "C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Calibration capacitor100nF（104）100V,5%",
+            "BOM_Supplier Part": "C26609",
+            "puuid": "d66d2b6670f0420eb8e9ce9db716aa57",
+            "uuid": "55792152921e4dd39bca0a771a78f25e"
+          }
+        ],
+        [
+          "JL127-50002G01",
+          3,
+          "CONN-TH_2P-P5.08_JL127-50002G01",
+          "CN1,CN2,CN3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C387826",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL127-50002G01",
+            "puuid": "254bc3d6cce84d039b73a4f4032c787e",
+            "uuid": "a23db381e69b411a90ba315dced457c9"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0402",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C15525",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "b585d92194385de14506b560a4a27e20"
+          }
+        ],
+        [
+          "12K",
+          1,
+          "R0402",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF1202TCE",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C25752",
+            "puuid": "cea456c24ca24165b176bcf9114a7b29",
+            "uuid": "ba76f2a61ad251f7260544b43a3e71f4"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C0402",
+          "C2,C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05B104KO5NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C1525",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ],
+        [
+          "200",
+          5,
+          "R0402",
+          "R11,R12,R13,R14,R15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF2000TCE",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C25087",
+            "puuid": "cea456c24ca24165b176bcf9114a7b29",
+            "uuid": "e5c520d9ba8f8f1ff1854effb6ee96b9"
+          }
+        ],
+        [
+          "ESP-WROOM-32",
+          1,
+          "WIFIM-SMD_ESP-WROOM-32",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ESPRESSIF",
+            "BOM_Manufacturer Part": "ESP-WROOM-32",
+            "BOM_Supplier Part": "C95209",
+            "puuid": "72eed90ca283493bb2f3b0ea7c165dd0",
+            "uuid": "f3fe56761e5d4bb49b034efdb56ea9e7"
+          }
+        ],
+        [
+          "AO3400A",
+          3,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q1,Q2,Q3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AOS",
+            "BOM_Manufacturer Part": "AO3400A",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C20917",
+            "puuid": "8685f30498eb4672a60390cb8e921e7a",
+            "uuid": "f80e29816fd30bb295222fb4f47bcc25"
+          }
+        ]
+      ],
+      "updateTime": 1593977578,
+      "createTime": 1593974252,
+      "histories": [],
+      "created_at": "2020-07-05 20:37:32",
+      "updated_at": "2020-07-05 21:32:58"
+    },
+    {
+      "uuid": "445cdb6438224fb9848759374d5caf1d",
+      "puuid": "117bee50c5666bbc29d6bc0352319b2b",
+      "title": "PCB_2020-07-05_22-17-43",
+      "filename": "PCB_2020-07-05_22-17-43.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 5,
+        "bce4bcfcccfb42a296f7a392ab0b7199": 2,
+        "61ca4390f2284e11848b2ab1e8ce9766": 2,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1,
+        "cea456c24ca24165b176bcf9114a7b29": 12,
+        "904b05bf744941788ee266e1db69f507": 3,
+        "d66d2b6670f0420eb8e9ce9db716aa57": 1,
+        "254bc3d6cce84d039b73a4f4032c787e": 3,
+        "f8eca159cd18407f9d5df374a1c2badf": 3,
+        "72eed90ca283493bb2f3b0ea7c165dd0": 1,
+        "8685f30498eb4672a60390cb8e921e7a": 3
+      },
+      "BOM": [],
+      "updateTime": 1593980264,
+      "createTime": 1593980264,
+      "histories": [],
+      "created_at": "2020-07-05 22:17:44",
+      "updated_at": "2020-07-05 22:17:44"
+    },
+    {
+      "uuid": "69790397f1b47a76853de0c1e8ef73b2",
+      "puuid": "117bee50c5666bbc29d6bc0352319b2b",
+      "title": "PCB_2020-07-09_18-49-22",
+      "filename": "PCB_2020-07-09_18-49-22.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 5,
+        "bce4bcfcccfb42a296f7a392ab0b7199": 2,
+        "61ca4390f2284e11848b2ab1e8ce9766": 2,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1,
+        "cea456c24ca24165b176bcf9114a7b29": 12,
+        "904b05bf744941788ee266e1db69f507": 3,
+        "d66d2b6670f0420eb8e9ce9db716aa57": 1,
+        "254bc3d6cce84d039b73a4f4032c787e": 3,
+        "f8eca159cd18407f9d5df374a1c2badf": 3,
+        "72eed90ca283493bb2f3b0ea7c165dd0": 1,
+        "8685f30498eb4672a60390cb8e921e7a": 3
+      },
+      "BOM": [],
+      "updateTime": 1594550827,
+      "createTime": 1594313362,
+      "histories": [],
+      "created_at": "2020-07-09 18:49:22",
+      "updated_at": "2020-07-12 12:47:07"
+    }
+  ],
+  "sort": [],
+  "title": "esp32 module",
+  "foldername": "esp32 module",
+  "schfilename": "esp32 module.json",
+  "schfilemtime": 1593977578960
+}
